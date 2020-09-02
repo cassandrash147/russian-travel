@@ -1,0 +1,20 @@
+.page {
+  font-family: 'Inter', sans-serif;
+  background-color: #2A2C2F;
+  max-width: 1280px;
+min-width: 320px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+  text-rendering:optimizeLegibility;
+
+  margin: 0;
+  padding: 0;
+  
+  }
+
+ /* div, ul, section, header, li, img, footer {
+    border: 1px solid red;
+  }  */
