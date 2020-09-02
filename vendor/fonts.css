@@ -1,6 +1,17 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
+@font-face {
+	src: url('../vendor/Inter-Bold.woff') format('woff'),
+			 url('../vendor/Inter-Bold.woff2') format('woff2'),
+			 url('../vendor/Inter-Bold.ttf') format('truetype'),
+			 url('../vendor/Inter-Bold.eot') format('eot');
+       font-family: 'Inter';
+       font-weight: bold;
+     }
 
+@font-face {
+  src: url('../vendor/Inter-Regular.woff') format('woff'),
+       url('../vendor/Inter-Regular.woff2') format('woff2'),
+       url('../vendor/Inter-Regular.ttf') format('truetype'),
+       url('../vendor/Inter-Regular.eot') format('eot');
+       font-family: 'Inter';
+       font-weight: normal;
+      }     
