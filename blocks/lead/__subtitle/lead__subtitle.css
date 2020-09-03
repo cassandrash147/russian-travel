@@ -10,10 +10,26 @@ max-width: 640px;
 color: #FFFFFF;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle{
+    margin: 32px auto 56px;
+    
+  }  
+}
+
 @media screen and (max-width: 707px) {
   .lead__subtitle{
     font-size: 16px;
     line-height: 1.25;
     max-width: calc(100% - 32px);
+  }  
+}
+
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle{
+    margin: 16px auto 40px;
+    
   }  
 }

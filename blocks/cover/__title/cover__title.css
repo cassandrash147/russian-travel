@@ -1,5 +1,5 @@
 .cover__title{
-margin: -495px auto 32px;
+margin: 245px auto 32px;
 font-family: Inter;
 font-style: normal;
 font-weight: 900;
@@ -9,12 +9,13 @@ text-align: center;
 color: rgba(255, 255, 255, 1);
 max-width: 560px;
 z-index: 5;
+
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
    
-    margin: -445px auto 32px;
+    margin: 195px auto 32px;
 
   }
 }
@@ -22,16 +23,16 @@ z-index: 5;
 @media screen and (max-width: 768px) {
   .cover__title {
    
-    margin: -365px auto 32px;
+    margin: 195px auto 32px;
 
   }
 }
 
-@media screen and (max-width: 538px) {
+@media screen and (max-width: 624px) {
   .cover__title {
     font-size: 32px;
     line-height: 1.09;
-    margin: -267px auto 32px;
+    margin: 115px auto 32px;
 
   }
 }
@@ -39,7 +40,7 @@ z-index: 5;
 @media screen and (max-width: 320px) {
   .cover__title {
    
-    margin: -167px auto 16px;
+    margin: 33px auto 16px;
 
   }
 }

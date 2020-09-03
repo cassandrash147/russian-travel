@@ -7,7 +7,7 @@
   overflow: hidden;
   background-position: center;
   box-sizing: content-box;
-}
+}  
 
 @media screen and (max-width: 1024px) {
   .cover {
@@ -29,8 +29,3 @@
     height: 200px;
   }
 }
-
-
-
-
-
