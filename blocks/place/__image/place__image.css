@@ -33,7 +33,10 @@ margin: 0 40px 0 0;
 
 @media screen and (max-width: 380px) {
   .place__image {
-    width: 100%;
+    width: calc(100% + 16px *2);
+    position: relative;
+    left: -16px;
+    max-height: 320px;
     contain: auto;
 }  
 }

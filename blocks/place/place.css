@@ -5,6 +5,10 @@
   margin: 0 0 80px 0;
   }
 
+  .place:last-of-type{
+    margin: 0 0 0 0;
+    }
+
   @media screen and (max-width: 768px) {
     .place {
       margin: 0 0 72px 0;

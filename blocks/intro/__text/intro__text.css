@@ -1,6 +1,4 @@
 .intro__text{
-  font-family: Inter;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
@@ -13,10 +11,5 @@ https://prnt.sc/uawks4 https://prnt.sc/uawl2c - поэтому задаю в п�
 }
 
 
-@media screen and (max-width: 320px) {
-  .lead__caption{
-    margin: 8px 0 0 16px;
-    
-  }  
-}
+
 

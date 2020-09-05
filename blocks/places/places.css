@@ -1,31 +1,17 @@
 .places{
-  max-width: calc(100% - (100%*(0.23125)));
-  margin: auto;
+  max-width: 100%;
+  padding: 0 100px 0 100px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: calc(100% - (100%*(0.09375)));
+    padding: 0;
   }  
 }
 
-@media screen and (max-width: 768px) {
-  .places {
-    max-width: 100%;
-    padding: 0 24px 0 24px;
-  }  
-}
-
-@media screen and (max-width: 592px) {
-  .places {
-    max-width: 100%;
-    padding: 0 24px 0 24px;
-}  
-}
 
 @media screen and (max-width: 368px) {
   .places {
-   
-    padding: 0 ;
+    padding: 0;
 }  
 }
